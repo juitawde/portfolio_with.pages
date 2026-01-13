@@ -236,6 +236,87 @@ section h2:hover {
     width: 100%;
 }
 
+/* Forms section */
+#form {
+    max-width: 900px;
+    margin: 3rem auto 4rem;
+    padding: 2.5rem;
+    background: #fff7f9;
+    border-radius: 22px;
+    box-shadow: 0 15px 40px rgba(176, 134, 160, 0.25);
+}
+
+form {
+    display: grid;
+    gap: 1.4rem;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 0.9rem;
+    margin-bottom: 0.4rem;
+    color: #7a4b66;
+    font-weight: 500;
+}
+
+/* Inputs & selects */
+input,
+select,
+textarea {
+    padding: 0.75rem 1rem;
+    border-radius: 14px;
+    border: 1.5px solid #e6c6d3;
+    font-size: 0.9rem;
+    background: #fff;
+    outline: none;
+    transition: all 0.3s ease;
+    font-family: inherit;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #c27a9a;
+    box-shadow: 0 0 0 3px rgba(194, 122, 154, 0.2);
+}
+
+/* Textarea */
+textarea {
+    resize: none;
+}
+
+/* button design */
+#form button {
+    padding: 10px 22px;
+    border-radius: 999px;
+    border: none;                
+    background: transparent;     
+    color: var(--text);
+    font-weight: 500;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.35s ease;
+}
+
+/* hover — EXACT nav hover */
+#form button:hover {
+    background: #ffffff;
+    color: #c96b85;
+    box-shadow: 
+        0 8px 20px rgba(243,182,195,0.45),
+        inset 0 0 0 1px var(--border);
+    transform: translateY(-2px);
+}
+
+/* active click */
+#form button:active {
+    transform: scale(0.96);
+}
+
 /* FOOTER */
 footer {
     text-align: center;

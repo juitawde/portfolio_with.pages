@@ -27,7 +27,70 @@
          <li><p>LinkedIn: <a href="https://www.linkedin.com/in/jui-tawde-788210385/" target="_blank">LinkedIn</a></p></li>
          <li><p>GitHub: <a href="https://github.com/juitawde" target="_blank">GitHub</a> </p></li>
         </ul>
-       </section>
+        </section>
+    
+        <section id="form">
+        <h2><strong>Reach out to me</strong></h2>
+        <form action="https://formspree.io/f/xkoonqkl" method="POST">
+        <input type="hidden" name="_next" value="thankyou.html">
+        <input type="hidden" name="_subject" value="New Portfolio Contact Form">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+
+        <!-- Form details start here -->
+        <div>
+            <label for="name">Name</label>
+            <input id="name" type="text" name="name" placeholder="Enter your name" required>
+        </div>
+
+        <div>
+            <label for="phone">Phone</label>
+            <input id="phone" type="tel" name="phone" placeholder="Enter phone no." required>
+        </div>
+
+        <div>
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender" required>
+                <option value="" disabled selected>Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" placeholder="Enter email id" required>
+        </div>
+
+        <div>
+            <label for="interests">Interests</label>
+            <input id="interests" type="text" name="interests" placeholder="Enter Interests" required>
+        </div>
+
+        <div>
+            <label for="experience level">Experience Level</label>
+            <select id="experience level" name="experience" required>
+                <option value="Beginner">Beginner</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="Your Message">Your Message</label>
+            <textarea id="Your Message" name="message" placeholder="Enter your message" rows="4"></textarea>
+        </div>
+
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+        
+        </form>
+        </section>
+
+</body>
+</html>
     </main>
     
     <footer>
